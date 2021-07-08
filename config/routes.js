@@ -8,6 +8,11 @@ const ABOUT = {
   url: '/about',
   route: 'about',
 };
+const FAQS = {
+  href: '/faqs',
+  url: '/faqs',
+  route: 'faqs',
+};
 const SERVICE = {
   href: '/service',
   url: '/service',
@@ -32,6 +37,7 @@ const GETTING_STARTED = {
 const ROUTES = {
   INDEX,
   ABOUT,
+  FAQS,
   SERVICE,
   CONTACT,
   DOCUMENTATION,

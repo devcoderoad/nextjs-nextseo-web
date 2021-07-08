@@ -74,6 +74,19 @@ function Header(props) {
                 </Link>
               </NavItem>
               <NavItem
+                className={`${pathname.includes('faqs') ? `active` : ``}`}
+              >
+                <Link href={ROUTES.FAQS.href} passHref>
+                  <a
+                    className={`nav-link${
+                      pathname.includes('faqs') ? ` text-active` : ''
+                    }`}
+                  >
+                    Faqs
+                  </a>
+                </Link>
+              </NavItem>
+              <NavItem
                 className={`${pathname.includes('service') ? `active` : ``}`}
               >
                 <Link href={ROUTES.SERVICE.href} passHref>
